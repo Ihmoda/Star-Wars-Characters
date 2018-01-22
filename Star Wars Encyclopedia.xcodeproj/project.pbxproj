@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F9AB860A201664F8009339FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AB8609201664F8009339FE /* AppDelegate.swift */; };
-		F9AB860C201664F8009339FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AB860B201664F8009339FE /* ViewController.swift */; };
 		F9AB860F201664F8009339FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AB860D201664F8009339FE /* Main.storyboard */; };
 		F9AB8612201664F8009339FE /* Star_Wars_Encyclopedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9AB8610201664F8009339FE /* Star_Wars_Encyclopedia.xcdatamodeld */; };
 		F9AB8614201664F8009339FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9AB8613201664F8009339FE /* Assets.xcassets */; };
 		F9AB8617201664F8009339FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AB8615201664F8009339FE /* LaunchScreen.storyboard */; };
 		F9AB8622201664F8009339FE /* Star_Wars_EncyclopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AB8621201664F8009339FE /* Star_Wars_EncyclopediaTests.swift */; };
 		F9AB862D201664F8009339FE /* Star_Wars_EncyclopediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AB862C201664F8009339FE /* Star_Wars_EncyclopediaUITests.swift */; };
+		F9AB863B20166552009339FE /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AB863A20166552009339FE /* PeopleTableViewController.swift */; };
+		F9AB863D201678D3009339FE /* PeopleResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AB863C201678D3009339FE /* PeopleResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 /* Begin PBXFileReference section */
 		F9AB8606201664F8009339FE /* Star Wars Encyclopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Star Wars Encyclopedia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9AB8609201664F8009339FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9AB860B201664F8009339FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9AB860E201664F8009339FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9AB8611201664F8009339FE /* Star_Wars_Encyclopedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Star_Wars_Encyclopedia.xcdatamodel; sourceTree = "<group>"; };
 		F9AB8613201664F8009339FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		F9AB8628201664F8009339FE /* Star Wars EncyclopediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Star Wars EncyclopediaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9AB862C201664F8009339FE /* Star_Wars_EncyclopediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_Wars_EncyclopediaUITests.swift; sourceTree = "<group>"; };
 		F9AB862E201664F8009339FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9AB863A20166552009339FE /* PeopleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
+		F9AB863C201678D3009339FE /* PeopleResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				F9AB8609201664F8009339FE /* AppDelegate.swift */,
-				F9AB860B201664F8009339FE /* ViewController.swift */,
 				F9AB860D201664F8009339FE /* Main.storyboard */,
+				F9AB863A20166552009339FE /* PeopleTableViewController.swift */,
+				F9AB863C201678D3009339FE /* PeopleResult.swift */,
 				F9AB8613201664F8009339FE /* Assets.xcassets */,
 				F9AB8615201664F8009339FE /* LaunchScreen.storyboard */,
 				F9AB8618201664F8009339FE /* Info.plist */,
@@ -262,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9AB860C201664F8009339FE /* ViewController.swift in Sources */,
 				F9AB860A201664F8009339FE /* AppDelegate.swift in Sources */,
+				F9AB863D201678D3009339FE /* PeopleResult.swift in Sources */,
+				F9AB863B20166552009339FE /* PeopleTableViewController.swift in Sources */,
 				F9AB8612201664F8009339FE /* Star_Wars_Encyclopedia.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
