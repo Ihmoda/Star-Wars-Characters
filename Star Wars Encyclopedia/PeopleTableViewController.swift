@@ -46,7 +46,11 @@ class PeopleTableViewController: UITableViewController {
                 if self.people.count < 87 {
                     self.populatePeople(api_url: self.current_API)
                 }
-                self.tableView.reloadData()
+                
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
+                }
+                
             } catch {
                 print(error)
             }
